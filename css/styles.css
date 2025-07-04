@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/*
+    CSS Archive by: @arthurferreira-dev
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); /* Roboto font by: Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); /*Montserrat font by: Google Fonts */
+
+:root {
+    --roboto-google: 'Roboto', Arial, Helvetica, sans-serif;
+    --montserrat: 'Montserrat', Verdana, monospace, sans-serif;
+}
+
+* { /* Reset Charset */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--montserrat);
+    background-color: #6ca8aa;
+    color: #000;
+    height: 100%;
+    width: 100%;
+    font-size: 1em;
+}
+
+/* Skeletonz */
+
+header {
+    background-color: #6b9b9d;
+    text-align: center;
+}
+
+h2#sub-title, .imc {
+    color: #e7e731;
+}
+
+header, main, footer {
+    padding: 7px;
+}
+
+footer {
+    background-color: #5f9597;
+    font-size: 1.15em;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+/* Default */
+
+a, abbr {
+    text-decoration: none;
+}
+
+a {
+    transition-duration: .40s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 8px;
+    text-align: center;
+    font-size: 0.95em;
+    border: none;
+    border-radius: 6.5px;
+}
+
+input[type=text] {
+    background-color: #fff;
+    color: #000;
+    width: 250px;
+}
+
+#github {
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+}
