@@ -33,6 +33,7 @@ body {
 header {
     background-color: #6b9b9d;
     text-align: center;
+    margin-bottom: 12px;
 }
 
 h2#sub-title, .imc {
@@ -43,11 +44,42 @@ header, main, footer {
     padding: 7px;
 }
 
+main {
+    background-color: #549094;
+    width: 90%;
+    margin: auto;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+section#inputs {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section#inputs > section#names, section#alturas, section#pesos {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.inputs {
+    margin-top: 7px;
+}
+
+button#click {
+    display: block;
+    margin-top: 12px;
+    transition-duration: .32s;
+}
+
 footer {
     background-color: #5f9597;
     font-size: 1.15em;
     text-align: center;
     line-height: 1.5em;
+    margin-top: 12px;
 }
 
 /* Default */
@@ -67,7 +99,7 @@ a:hover {
 button {
     display: block;
     margin: auto;
-    padding: 8px;
+    padding: 7px;
     text-align: center;
     font-size: 0.95em;
     border: none;
@@ -78,10 +110,26 @@ input[type=text] {
     background-color: #fff;
     color: #000;
     width: 250px;
+    border: none;
+    font-family: var(--roboto-google);
 }
 
 #github {
     color: #000;
     background-color: #fff;
     border-radius: 50%;
+}
+
+th, td {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+table {
+    width: calc(100%-35%);
+}
+
+.center {
+    text-align: center;
 }
