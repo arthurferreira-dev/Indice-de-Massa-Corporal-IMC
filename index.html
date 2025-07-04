@@ -25,16 +25,20 @@
                 </section>
                 <section id="alturas">
                     <label for="altura">Sua Altura: </label> <br>
-                    <input type="text" id="altura" class="inputs">
+                    <input type="text" id="altura" class="inputs" min="0" max="272">
                 </section>
                 <section id="pesos">
                     <label for="peso">Seu peso: </label> <br>
-                    <input type="text" id="peso" class="inputs">
+                    <input type="text" id="peso" class="inputs" min="0" max="635000">
                 </section>
                 <br>
                 <button id="click" onclick="calc()">
                     Calcular
                 </button>
+                <br>
+                <p id="res">
+                    Seu resultado aparecerá aqui
+                </p>
             </section>
         </article>
     </main>

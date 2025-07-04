@@ -74,6 +74,13 @@ button#click {
     transition-duration: .32s;
 }
 
+p#res {
+    display: none;
+    margin-top: 12px;
+    font-family: var(--roboto-google);
+    font-size: 1.1em;
+}
+
 footer {
     background-color: #5f9597;
     font-size: 1.15em;
@@ -112,6 +119,7 @@ input[type=text] {
     width: 250px;
     border: none;
     font-family: var(--roboto-google);
+    padding: 4px;
 }
 
 #github {

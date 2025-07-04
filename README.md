@@ -29,5 +29,8 @@ BOA SORTE!
 # Obrigado por ler!
 Compartilhe com o máximo de pessoas para que eu e você ajude ela!
 
+# Referência
+[Programa Saúde Fácil](https://www.programasaudefacil.com.br/calculadora-de-imc)
+
 # LICENSE
 [MIT License](LICENSE)
